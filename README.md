@@ -1,2 +1,5 @@
 # WeChatRobotByChatGPT
-将ChatGPT3.5接入微信聊天机器人
+本Python代码用于将ChatGPT3.5接入微信聊天机器人。
+
+需要一台可以直接访问外网的电脑且这台电脑如果是Winserver服务器的话需要持续保证RDP连接（因为WXauto包的message发送依赖于键盘，断开RDP连接将无法发送文本）
+
