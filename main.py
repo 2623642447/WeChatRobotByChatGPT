@@ -53,7 +53,7 @@ if __name__=='__main__':
             else:
                 isMD = False
     
-            wx.SendMsg("Reply the Question："+msgcontent2)
+            #wx.SendMsg("Reply the Question："+msgcontent2)
             messages.append({"role": "user", "content":msgcontent2})
             ret = chat(messages,speaker2)
             print(num)
